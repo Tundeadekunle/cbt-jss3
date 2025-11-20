@@ -2,7 +2,7 @@ import { Question, Subject } from '@/types';
 import { historyQuestions } from './history';
 import { ccaQuestions } from './cca';
 import { scienceQuestions } from './science';
-import { socialStudiesQuestions } from './social-studies';
+import { scsQuestions } from './scs';
 import { businessQuestions } from './business';
 import { computerQuestions } from './computer';
 import { pheQuestions } from './phe';
@@ -24,8 +24,8 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
       return crsQuestions;
     case 'science':
       return scienceQuestions;
-    case 'social-studies':
-      return socialStudiesQuestions;
+    case 'scs':
+      return scsQuestions;
     default:
       return historyQuestions;
   }
@@ -52,13 +52,13 @@ export const getSubjectDisplayName = (subject: Subject): string => {
       return 'Physical and Health Education';
     case 'science':
       return 'Basic Science';
-    case 'social-studies':
-      return 'Social Studies';
+    case 'scs':
+      return 'Social and Citizenship Studies';
     default:
       return 'CCA';
   }
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['history', 'cca', 'science', 'social-studies', 'computer', 'phe', 'crs', 'business'];
+  return ['history', 'cca', 'science', 'scs', 'computer', 'phe', 'crs', 'business'];
 };

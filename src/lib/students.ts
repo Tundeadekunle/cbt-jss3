@@ -6,21 +6,21 @@ export const students: Student[] = [
     name: 'Okeowo Anjola', 
     class: 'JSS 2', 
     email: 'sodim@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'social-studies']
+    subjects: [ 'science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'scs']
   },
   { 
     id: 'MTH030STU', 
     name: 'Olaokun Desire', 
     class: 'JSS 2', 
     email: 'salam@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'social-studies']
+    subjects: [ 'science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'scs']
   },
   { 
     id: 'MTH031STU', 
     name: 'Erinosho Olarenwaju', 
     class: 'JSS 2', 
     email: 'alamuy@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'social-studies']
+    subjects: [ 'science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'scs']
   },
   
 { 
@@ -28,14 +28,14 @@ export const students: Student[] = [
     name: 'Wale Seun', 
     class: 'BASIC VI', 
     email: 'jsy@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'social-studies']
+    subjects: [ 'science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'scs']
   },
   { 
     id: 'MTH0028STU', 
     name: 'Kay Will', 
     class: 'JSS 2', 
     email: 'jsy@school.edu',
-    subjects: ['science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'social-studies']
+    subjects: ['science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'scs']
   },
   
   // Add more students...

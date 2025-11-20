@@ -274,7 +274,7 @@ export default function HomePage() {
             Ready to Begin Your Exam?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join thousands of students who have successfully completed their examinations through our platform.
+            Join other students who have successfully completed their examinations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -338,7 +338,7 @@ export default function HomePage() {
               <h3 className="font-semibold text-white mb-4">Support</h3>
               <ul className="space-y-2">
                 <li><a href="mailto:support@examportal.com" className="text-gray-400 hover:text-white transition-colors">support@mathalintlschool.com</a></li>
-                <li><a href="tel:+1234567890" className="text-gray-400 hover:text-white transition-colors">+234 703 4687-011</a></li>
+                <li><a href="tel:+1234567890" className="text-gray-400 hover:text-white transition-colors">+234 703 468 7011</a></li>
                 <li><span className="text-gray-400">Mon-Fri: 9AM-5PM</span></li>
               </ul>
             </div>
