@@ -6,840 +6,840 @@ export const businessQuestions: Question[] = [
     id: 1,
     type: 'multiple-choice',
     subject: 'business',
-    question: "History is the study of ______.",
+    question: "Which of the following best defines office procedures?",
     options: [
-      "the past events",
-      "the future",
-      "mathematics",
-      "science"
+      "Rules for customer service",
+      "Step-by-step methods for performing office tasks",
+      "Legal requirements in a workplace",
+      "Ways of organizing office parties"
     ],
-    correctAnswer: "the past events",
+    correctAnswer: "Step-by-step methods for performing office tasks",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The word 'history' comes from the Greek word 'Historia' meaning ______.",
+    question: "Office procedures help workers to:",
     options: [
-      "story",
-      "inquiry",
-      "record",
-      "tradition"
+      "Work slowly",
+      "Work in a confusing way",
+      "Work systematically",
+      "Avoid communication"
     ],
-    correctAnswer: "inquiry",
+    correctAnswer: "Work systematically",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'business',
-    question: "One of the sources of history is ______.",
+    question: "Which document often outlines office procedures?",
     options: [
-      "songs",
-      "oral tradition",
-      "magic",
-      "imagination"
+      "Employee handbook",
+      "Novel",
+      "Newspaper",
+      "Magazine"
     ],
-    correctAnswer: "oral tradition",
+    correctAnswer: "Employee handbook",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Written sources of history include ______.",
+    question: "Which of the following is NOT an office procedure?",
     options: [
-      "folktales",
-      "textbooks",
-      "proverbs",
-      "carvings"
+      "Filing documents",
+      "Answering telephone calls",
+      "Payroll processing",
+      "Playing games"
     ],
-    correctAnswer: "textbooks",
+    correctAnswer: "Playing games",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Archaeology deals with ______.",
+    question: "Office procedures promote:",
     options: [
-      "study of birds",
-      "study of human past through remains",
-      "study of stars",
-      "study of weather"
+      "Disorder",
+      "Efficiency",
+      "Laziness",
+      "Conflicts"
     ],
-    correctAnswer: "study of human past through remains",
+    correctAnswer: "Efficiency",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Oral tradition means history passed down by ______.",
+    question: "Which procedure is used to manage incoming mail?",
     options: [
-      "writing",
-      "speaking",
-      "acting",
-      "dancing"
+      "Sorting and distribution",
+      "Printing",
+      "Bookmarking",
+      "Scanning only"
     ],
-    correctAnswer: "speaking",
+    correctAnswer: "Sorting and distribution",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Which of the following is NOT a source of history?",
+    question: "Which of the following is a communication procedure?",
     options: [
-      "Archaeology",
-      "Oral tradition",
-      "Myths",
-      "Cooking"
+      "Shredding papers",
+      "Answering calls",
+      "Cleaning desks",
+      "Powering equipment"
     ],
-    correctAnswer: "Cooking",
+    correctAnswer: "Answering calls",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Museum is a place where ______ are kept.",
+    question: "Filing procedures help staff to:",
     options: [
-      "animals",
-      "historical objects",
-      "cars",
-      "soldiers"
+      "Misplace documents",
+      "Find files easily",
+      "Destroy documents",
+      "Avoid organizing"
     ],
-    correctAnswer: "historical objects",
+    correctAnswer: "Find files easily",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The people who study and write about past events are called ______.",
+    question: "Receiving visitors at the office is part of:",
     options: [
-      "historians",
-      "politicians",
-      "artists",
-      "teachers"
+      "Financial procedures",
+      "Front-desk procedures",
+      "Manufacturing",
+      "Accounting"
     ],
-    correctAnswer: "historians",
+    correctAnswer: "Front-desk procedures",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'business',
-    question: "One importance of studying history is ______.",
+    question: "A procedure for handling phone calls ensures:",
     options: [
-      "to know our past",
-      "to forget our culture",
-      "to make us proud",
-      "to learn science"
+      "Silence in the office",
+      "Standard communication",
+      "Frequent errors",
+      "Delays"
     ],
-    correctAnswer: "to know our past",
+    correctAnswer: "Standard communication",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The earliest people to live in Nigeria were ______.",
+    question: "What is one effect of having clear office procedures?",
     options: [
-      "Nok people",
-      "hunters and gatherers",
-      "farmers",
-      "traders"
+      "They increase the number of mistakes made.",
+      "They have no impact on error rates.",
+      "They reduce mistakes by providing clear steps.",
+      "They make mistakes more difficult to correct."
     ],
-    correctAnswer: "hunters and gatherers",
+    correctAnswer: "They reduce mistakes by providing clear steps.",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Early people lived in ______ shelters.",
+    question: "How should office workers view established office procedures?",
     options: [
-      "mud houses",
-      "caves",
-      "mansions",
-      "flats"
+      "They are optional and can be ignored.",
+      "They are mandatory and should be followed.",
+      "They are only for new employees.",
+      "They are unnecessary for experienced staff."
     ],
-    correctAnswer: "caves",
+    correctAnswer: "They are mandatory and should be followed.",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Early people discovered fire by ______.",
+    question: "How does following established procedures impact customer service?",
     options: [
-      "using stones",
-      "electricity",
-      "gas",
-      "wood"
+      "It has no effect on customer interactions.",
+      "It often confuses customers.",
+      "It improves the consistency and quality of customer service.",
+      "It slows down service, frustrating customers."
     ],
-    correctAnswer: "using stones",
+    correctAnswer: "It improves the consistency and quality of customer service.",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Early people used stones and bones to make ______.",
+    question: "What role do office procedures play in task output?",
     options: [
-      "toys",
-      "tools",
-      "food",
-      "clothes"
+      "They encourage completely unique results every time.",
+      "They help maintain uniformity and consistency in work.",
+      "They prevent any form of standardization.",
+      "They only apply to managerial work."
     ],
-    correctAnswer: "tools",
+    correctAnswer: "They help maintain uniformity and consistency in work.",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The discovery of fire helped early people to ______.",
+    question: "What is a likely consequence of operating without established procedures?",
     options: [
-      "travel",
-      "cook food",
-      "swim",
-      "sing"
+      "Tasks are completed more quickly.",
+      "There is no change in completion time.",
+      "Tasks take longer to complete due to confusion or rework.",
+      "Only creative tasks are affected."
     ],
-    correctAnswer: "cook food",
+    correctAnswer: "Tasks take longer to complete due to confusion or rework.",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Early people were also known as ______.",
+    question: "Office procedures are __________ methods for handling tasks.",
     options: [
-      "modern men",
-      "primitive men",
-      "educated men",
-      "wise men"
+      "informal",
+      "systematic",
+      "random",
+      "personal"
     ],
-    correctAnswer: "primitive men",
+    correctAnswer: "systematic",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The earliest occupation of man was ______.",
+    question: "Filing is an example of an office __________.",
     options: [
-      "farming",
-      "hunting and gathering",
-      "teaching",
-      "trading"
+      "problem",
+      "procedure",
+      "equipment",
+      "goal"
     ],
-    correctAnswer: "hunting and gathering",
+    correctAnswer: "procedure",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Early people later settled because they began ______.",
+    question: "Telephone etiquette is part of communication __________.",
     options: [
-      "to farm",
-      "to travel",
-      "to fight",
-      "to dance"
+      "theories",
+      "guidelines",
+      "equipment",
+      "barriers"
     ],
-    correctAnswer: "to farm",
+    correctAnswer: "guidelines",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Early settlements were usually near ______.",
+    question: "Sorting mail ensures __________ distribution.",
     options: [
-      "markets",
-      "rivers",
-      "schools",
-      "mountains"
+      "delayed",
+      "correct",
+      "random",
+      "external"
     ],
-    correctAnswer: "rivers",
+    correctAnswer: "correct",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'business',
-    question: "One of the characteristics of early people was ______.",
+    question: "Front-desk procedures include receiving __________.",
     options: [
-      "use of metal",
-      "use of simple tools",
-      "use of machines",
-      "use of engines"
+      "payments",
+      "visitors",
+      "supplies",
+      "emails"
     ],
-    correctAnswer: "use of simple tools",
+    correctAnswer: "visitors",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Nok culture was first discovered in ______.",
+    question: "One importance of office procedures is:",
     options: [
-      "Kano State",
-      "Kaduna State",
-      "Plateau State",
-      "Benue State"
+      "Increasing confusion",
+      "Improving efficiency",
+      "Wasting time",
+      "Causing errors"
     ],
-    correctAnswer: "Kaduna State",
+    correctAnswer: "Improving efficiency",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The name Nok came from a village in ______.",
+    question: "Office procedures help to:",
     options: [
-      "Jos area",
-      "Kaduna",
-      "Minna",
-      "Ilorin"
+      "Standardize work",
+      "Reduce organization",
+      "Create disorder",
+      "Increase conflicts"
     ],
-    correctAnswer: "Jos area",
+    correctAnswer: "Standardize work",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Nok people were famous for their ______.",
+    question: "Procedures promote:",
     options: [
-      "terracotta works",
-      "wood carvings",
-      "drawings",
-      "music"
+      "Higher mistakes",
+      "Better coordination",
+      "Miscommunication",
+      "Customer complaints"
     ],
-    correctAnswer: "terracotta works",
+    correctAnswer: "Better coordination",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Nok culture existed about ______ years ago.",
+    question: "Which is an advantage of written procedures?",
     options: [
-      "100 years",
-      "2,000 years",
-      "500 years",
-      "5 years"
+      "They are hard to understand",
+      "They guide employees",
+      "They discourage productivity",
+      "They cause delays"
     ],
-    correctAnswer: "2,000 years",
+    correctAnswer: "They guide employees",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Nok people were among the first to use ______ in West Africa.",
+    question: "Office procedures ensure work is done:",
     options: [
-      "iron",
-      "gold",
-      "wood",
-      "copper"
+      "Randomly",
+      "Systematically",
+      "Carelessly",
+      "Slowly"
     ],
-    correctAnswer: "iron",
+    correctAnswer: "Systematically",
     marks: 1
   },
   {
     id: 26,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Archaeologists discovered Nok culture through ______.",
+    question: "What is one key benefit of having established office procedures?",
     options: [
-      "oral stories",
-      "objects buried in the ground",
-      "songs",
-      "myths"
+      "They create confusion among staff.",
+      "They help maintain quality of work.",
+      "They eliminate the need for managers.",
+      "They prioritize speed over accuracy."
     ],
-    correctAnswer: "objects buried in the ground",
+    correctAnswer: "They help maintain quality of work.",
     marks: 1
   },
   {
     id: 27,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Nok sculptures were mainly made of ______.",
+    question: "How do standardized office procedures affect new staff training?",
     options: [
-      "stone",
-      "clay",
-      "wood",
-      "bronze"
+      "They significantly increase training time.",
+      "They have no impact on training time.",
+      "They reduce training time for new staff.",
+      "They make training entirely unnecessary."
     ],
-    correctAnswer: "clay",
+    correctAnswer: "They reduce training time for new staff.",
     marks: 1
   },
   {
     id: 28,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The discovery of Nok culture helped to understand Nigeria's ______.",
+    question: "From a management perspective, what effect do clear office procedures have?",
     options: [
-      "ancient civilization",
-      "politics",
-      "religion",
-      "geography"
+      "They make supervision more difficult.",
+      "They make supervision easier.",
+      "They remove the need for supervision.",
+      "They only apply to senior staff supervision."
     ],
-    correctAnswer: "ancient civilization",
+    correctAnswer: "They make supervision easier.",
     marks: 1
   },
   {
     id: 29,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Nok people were mainly ______.",
+    question: "What impact do well-designed office procedures typically have on productivity?",
     options: [
-      "traders",
-      "farmers and blacksmiths",
-      "kings",
-      "teachers"
+      "They always decrease productivity.",
+      "They have no measurable effect on productivity.",
+      "They often increase or maintain productivity.",
+      "They only improve productivity for a short time."
     ],
-    correctAnswer: "farmers and blacksmiths",
+    correctAnswer: "They often increase or maintain productivity.",
     marks: 1
   },
   {
     id: 30,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Nok terracotta figures were often shaped like ______.",
+    question: "What is a direct result of following established office procedures?",
     options: [
-      "animals and humans",
-      "cars",
-      "trees",
-      "house"
+      "It decreases consistency in outcomes.",
+      "It increases the rate of errors.",
+      "It increases accuracy and reduces errors.",
+      "It makes work more unpredictable."
     ],
-    correctAnswer: "animals and humans",
+    correctAnswer: "It increases accuracy and reduces errors.",
     marks: 1
   },
   {
     id: 31,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Benin Kingdom was located in present-day ______.",
+    question: "Which of the following is office equipment?",
     options: [
-      "Edo State",
-      "Lagos State",
-      "Kwara State",
-      "Ogun State"
+      "Printer",
+      "Refrigerator",
+      "Bed",
+      "Stove"
     ],
-    correctAnswer: "Edo State",
+    correctAnswer: "Printer",
     marks: 1
   },
   {
     id: 32,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The ruler of Benin was called the ______.",
+    question: "A photocopier is used for:",
     options: [
-      "Oba",
-      "Emir",
-      "King",
-      "Chief"
+      "Cooking food",
+      "Duplicating documents",
+      "Sending emails",
+      "Recording audio"
     ],
-    correctAnswer: "Oba",
+    correctAnswer: "Duplicating documents",
     marks: 1
   },
   {
     id: 33,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Oyo Empire was founded by the ______.",
+    question: "A computer is mainly used for:",
     options: [
-      "Yoruba people",
-      "Hausa people",
-      "Igbo people",
-      "Tiv people"
+      "Washing clothes",
+      "Processing information",
+      "Making noise",
+      "Holding paper"
     ],
-    correctAnswer: "Yoruba people",
+    correctAnswer: "Processing information",
     marks: 1
   },
   {
     id: 34,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The head of Oyo Empire was called the ______.",
+    question: "A scanner is used to:",
     options: [
-      "Alaafin",
-      "Oba",
-      "Emir",
-      "Sarki"
+      "Convert paper documents to digital form",
+      "Print images",
+      "Laminate files",
+      "Bind books"
     ],
-    correctAnswer: "Alaafin",
+    correctAnswer: "Convert paper documents to digital form",
     marks: 1
   },
   {
     id: 35,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Benin people were famous for their ______.",
+    question: "A telephone in the office is used for:",
     options: [
-      "bronze works",
-      "songs",
-      "farming",
-      "fishing"
+      "Decoration",
+      "Communication",
+      "Storage",
+      "Transportation"
     ],
-    correctAnswer: "bronze works",
+    correctAnswer: "Communication",
     marks: 1
   },
   {
     id: 36,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Oyo Empire was known for its strong ______.",
+    question: "Which device is used for projecting presentations?",
     options: [
-      "army",
-      "market",
-      "music",
-      "sea"
+      "Stapler",
+      "Projector",
+      "Photocopier",
+      "Calculator"
     ],
-    correctAnswer: "army",
+    correctAnswer: "Projector",
     marks: 1
   },
   {
     id: 37,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The council of chiefs in Oyo was called the ______.",
+    question: "A shredder is used for:",
     options: [
-      "Oyomesi",
-      "Ogboni",
-      "Senate",
-      "Emirate"
+      "Destroying confidential documents",
+      "Printing papers",
+      "Filing documents",
+      "Binding books"
     ],
-    correctAnswer: "Oyomesi",
+    correctAnswer: "Destroying confidential documents",
     marks: 1
   },
   {
     id: 38,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Benin Kingdom traded with the ______.",
+    question: "A calculator helps staff to:",
     options: [
-      "Europeans",
-      "Chinese",
-      "Indians",
-      "Arabs"
+      "Dance",
+      "Perform arithmetic tasks",
+      "Paint",
+      "Cook"
     ],
-    correctAnswer: "Europeans",
+    correctAnswer: "Perform arithmetic tasks",
     marks: 1
   },
   {
     id: 39,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Oyo Empire declined because of ______.",
+    question: "A filing cabinet is used to:",
     options: [
-      "internal wars",
-      "good leadership",
-      "farming",
-      "peace"
+      "Store documents",
+      "Make calls",
+      "Print reports",
+      "Project images"
     ],
-    correctAnswer: "internal wars",
+    correctAnswer: "Store documents",
     marks: 1
   },
   {
     id: 40,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Benin art was mostly used to ______.",
+    question: "A fax machine is used for:",
     options: [
-      "decorate palaces",
-      "build houses",
-      "cook",
-      "Fight"
+      "Sending documents electronically",
+      "Cooking",
+      "Recording videos",
+      "Binding papers"
     ],
-    correctAnswer: "decorate palaces",
+    correctAnswer: "Sending documents electronically",
     marks: 1
   },
   {
     id: 41,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Hausa city-states were located in ______ Nigeria.",
+    question: "What is the primary function of a stapler?",
     options: [
-      "Northern",
-      "Southern",
-      "Western",
-      "Eastern"
+      "To cut paper into shapes.",
+      "To join papers together.",
+      "To laminate documents.",
+      "To erase pencil marks."
     ],
-    correctAnswer: "Northern",
+    correctAnswer: "To join papers together.",
     marks: 1
   },
   {
     id: 42,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The ruler of Hausa city-states was called the ______.",
+    question: "Which of the following is true about modern printers?",
     options: [
-      "Sarki",
-      "Oba",
-      "Alaafin",
-      "Chief"
+      "They can only print in black and white.",
+      "They cannot produce colored documents.",
+      "They are capable of producing colored documents.",
+      "They are not used for document printing."
     ],
-    correctAnswer: "Sarki",
+    correctAnswer: "They are capable of producing colored documents.",
     marks: 1
   },
   {
     id: 43,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Hausa city-states include ______.",
+    question: "What is one common use of a computer?",
     options: [
-      "Kano, Katsina, Zaria",
-      "Ibadan, Oyo, Ife",
-      "Benin, Warri, Asaba",
-      "Nsukka, Onitsha, Owerri"
+      "For physical paper storage.",
+      "For data storage.",
+      "For cooking food.",
+      "For generating electricity."
     ],
-    correctAnswer: "Kano, Katsina, Zaria",
+    correctAnswer: "For data storage.",
     marks: 1
   },
   {
     id: 44,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Hausa people were known for ______.",
+    question: "What is the main purpose of a projector?",
     options: [
-      "trading",
-      "fishing",
-      "dancing",
-      "weaving"
+      "To scan paper documents.",
+      "To create paper copies.",
+      "To display images on a screen.",
+      "To shred confidential papers."
     ],
-    correctAnswer: "trading",
+    correctAnswer: "To display images on a screen.",
     marks: 1
   },
   {
     id: 45,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Fulani were mainly ______.",
+    question: "What function does a scanner perform?",
     options: [
-      "farmers",
-      "herdsmen",
-      "fishermen",
-      "traders"
+      "It prints digital photos.",
+      "It projects physical images onto a wall.",
+      "It converts physical photos into digital form.",
+      "It destroys old photographs."
     ],
-    correctAnswer: "herdsmen",
+    correctAnswer: "It converts physical photos into digital form.",
     marks: 1
   },
   {
     id: 46,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Hausa language became popular because of ______.",
+    question: "Office equipment should be cleaned:",
     options: [
-      "trade",
-      "war",
-      "religion",
-      "farming"
+      "Never",
+      "Regularly",
+      "Only when broken",
+      "Only during inspection"
     ],
-    correctAnswer: "trade",
+    correctAnswer: "Regularly",
     marks: 1
   },
   {
     id: 47,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Islam was introduced to Hausa land through ______.",
+    question: "Computers should be kept away from:",
     options: [
-      "trade and scholars",
-      "war",
-      "festivals",
-      "music"
+      "Books",
+      "Liquids",
+      "Desks",
+      "Chairs"
     ],
-    correctAnswer: "trade and scholars",
+    correctAnswer: "Liquids",
     marks: 1
   },
   {
     id: 48,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The main occupation of the Hausa people was ______.",
+    question: "Photocopier maintenance involves:",
     options: [
-      "trading",
-      "mining",
-      "teaching",
-      "dancing"
+      "Overloading it",
+      "Replacing toner",
+      "Using wet paper",
+      "Shaking the machine"
     ],
-    correctAnswer: "trading",
+    correctAnswer: "Replacing toner",
     marks: 1
   },
   {
     id: 49,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Fulani and Hausa later formed the ______.",
+    question: "Telephones should be cleaned with:",
     options: [
-      "Hausa-Fulani group",
-      "Yoruba tribe",
-      "Benin people",
-      "Igbo nation"
+      "Harsh chemicals",
+      "Mild disinfectants",
+      "Dirty cloths",
+      "Sandpaper"
     ],
-    correctAnswer: "Hausa-Fulani group",
+    correctAnswer: "Mild disinfectants",
     marks: 1
   },
   {
     id: 50,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The city of Kano was known for ______.",
+    question: "Equipment lasts longer when it is:",
     options: [
-      "dyeing and trading",
-      "farming",
-      "fishing",
-      "singing"
+      "Misused",
+      "Well maintained",
+      "Ignored",
+      "Overheated"
     ],
-    correctAnswer: "dyeing and trading",
+    correctAnswer: "Well maintained",
     marks: 1
   },
   {
     id: 51,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Igbo people lived mainly in ______ Nigeria.",
+    question: "What is the primary benefit of regular maintenance for equipment?",
     options: [
-      "Eastern",
-      "Western",
-      "Northern",
-      "Central"
+      "It increases the frequency of breakdowns.",
+      "It has no impact on breakdowns.",
+      "It reduces the occurrence of breakdowns.",
+      "It makes equipment more expensive to operate."
     ],
-    correctAnswer: "Eastern",
+    correctAnswer: "It reduces the occurrence of breakdowns.",
     marks: 1
   },
   {
     id: 52,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The traditional Igbo society had no ______.",
+    question: "How do user manuals contribute to equipment operation?",
     options: [
-      "central king",
-      "farmers",
-      "markets",
-      "families"
+      "They provide guidelines for correct operation.",
+      "They are primarily for decorative purposes.",
+      "They only contain safety warnings.",
+      "They increase the complexity of operation."
     ],
-    correctAnswer: "central king",
+    correctAnswer: "They provide guidelines for correct operation.",
     marks: 1
   },
   {
     id: 53,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Igbo people practiced ______ system of government.",
+    question: "Which of the following is the best practice regarding equipment repair?",
     options: [
-      "republican",
-      "monarchy",
-      "dictatorship",
-      "democracy"
+      "Repair only after complete failure.",
+      "Avoid repairs until absolutely necessary.",
+      "Perform repairs based on regular maintenance schedules.",
+      "Never repair; always replace equipment."
     ],
-    correctAnswer: "republican",
+    correctAnswer: "Perform repairs based on regular maintenance schedules.",
     marks: 1
   },
   {
     id: 54,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Igbo traditional title holders were called ______.",
+    question: "What effect can dust have on office equipment?",
     options: [
-      "Ozo and Nze",
-      "Sarki",
-      "Oba",
-      "Emir"
+      "It can improve airflow and cooling.",
+      "It has no significant effect.",
+      "It can cause damage to components.",
+      "It only affects the appearance."
     ],
-    correctAnswer: "Ozo and Nze",
+    correctAnswer: "It can cause damage to components.",
     marks: 1
   },
   {
     id: 55,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Igbo society believed in ______.",
+    question: "What is the function of a surge protector?",
     options: [
-      "one God called Chukwu",
-      "many kings",
-      "magic only",
-      "no god"
+      "To regulate power consumption.",
+      "To prevent damage from electrical surges.",
+      "To enhance data transmission.",
+      "To serve as a multiple power outlet."
     ],
-    correctAnswer: "one God called Chukwu",
+    correctAnswer: "To prevent damage from electrical surges.",
     marks: 1
   },
   {
     id: 56,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Arochukwu oracle was known as ______.",
+    question: "Office equipment should be __________ before use.",
     options: [
-      "Long Juju",
-      "Great Spirit",
-      "Chief Oracle",
-      "Ala Shrine"
+      "cleaned",
+      "inspected",
+      "stored",
+      "discarded"
     ],
-    correctAnswer: "Long Juju",
+    correctAnswer: "inspected",
     marks: 1
   },
   {
     id: 57,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Igbo people were mainly ______.",
+    question: "The user manual provides __________ for equipment use.",
     options: [
-      "farmers",
-      "fishermen",
-      "traders",
-      "warriors"
+      "instructions",
+      "penalties",
+      "entertainment",
+      "discounts"
     ],
-    correctAnswer: "farmers",
+    correctAnswer: "instructions",
     marks: 1
   },
   {
     id: 58,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Igbo people believed in life after ______.",
+    question: "Proper storage prevents __________.",
     options: [
-      "death",
-      "birth",
-      "marriage",
-      "festival"
+      "usage",
+      "damage",
+      "enjoyment",
+      "manufacturing"
     ],
-    correctAnswer: "death",
+    correctAnswer: "damage",
     marks: 1
   },
   {
     id: 59,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Igbo people were known for their ______.",
+    question: "Wiping equipment removes __________.",
     options: [
-      "festivals and trade",
-      "army",
-      "navy",
-      "horses"
+      "data",
+      "coatings",
+      "dust",
+      "serial numbers"
     ],
-    correctAnswer: "festivals and trade",
+    correctAnswer: "dust",
     marks: 1
   },
   {
     id: 60,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The elders in Igbo communities were respected because they ______.",
+    question: "Regular servicing increases equipment __________.",
     options: [
-      "had wisdom and experience",
-      "were rich",
-      "were young",
-      "had power only"
+      "cost",
+      "lifespan",
+      "weight",
+      "noise"
     ],
-    correctAnswer: "had wisdom and experience",
+    correctAnswer: "lifespan",
     marks: 1
   }
 ];
