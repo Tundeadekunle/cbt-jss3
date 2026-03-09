@@ -1,844 +1,425 @@
 import { Question } from '@/types';
 
 export const scsQuestions: Question[] = [
+  // Section A: Multiple Choice Questions (30 Questions)
   {
     id: 1,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Honesty means __________.",
+    question: "National issues affect the ______",
     options: [
-      "Telling lies",
-      "Telling the truth",
-      "Being rude",
-      "Cheating"
+      "family only",
+      "community only",
+      "whole country",
+      "school only"
     ],
-    correctAnswer: "Telling the truth",
+    correctAnswer: "whole country",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "A disciplined student is one who __________.",
+    question: "One major national issue in Nigeria is",
     options: [
-      "Breaks school rules",
-      "Obeys school rules",
-      "Fights others",
-      "Always complains"
+      "snowfall",
+      "insecurity",
+      "earthquake",
+      "volcano"
     ],
-    correctAnswer: "Obeys school rules",
+    correctAnswer: "insecurity",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "One importance of honesty is that it __________.",
+    question: "Corruption means",
     options: [
-      "Destroys trust",
-      "Builds a good reputation",
-      "Encourages cheating",
-      "Promotes laziness"
+      "honesty",
+      "misuse of power for personal gain",
+      "hard work",
+      "obedience"
     ],
-    correctAnswer: "Builds a good reputation",
+    correctAnswer: "misuse of power for personal gain",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Discipline helps individuals to __________.",
+    question: "Unemployment can lead to",
     options: [
-      "Waste time",
-      "Achieve their goals",
-      "Disobey rules",
-      "Be dishonest"
+      "poverty",
+      "peace",
+      "unity",
+      "development"
     ],
-    correctAnswer: "Achieve their goals",
+    correctAnswer: "poverty",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "A person who keeps promises shows __________.",
+    question: "Citizens can help solve national issues by",
     options: [
-      "Dishonesty",
-      "Discipline",
-      "Anger",
-      "Pride"
+      "breaking laws",
+      "destroying property",
+      "obeying laws",
+      "fighting leaders"
     ],
-    correctAnswer: "Discipline",
+    correctAnswer: "obeying laws",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Honesty promotes __________ in the society.",
+    question: "Drug abuse is a national issue because it",
     options: [
-      "Corruption",
-      "Peace and harmony",
-      "Cheating",
-      "Stealing"
+      "affects only adults",
+      "affects society negatively",
+      "promotes peace",
+      "improves health"
     ],
-    correctAnswer: "Peace and harmony",
+    correctAnswer: "affects society negatively",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Which of the following is a sign of indiscipline?",
+    question: "Illiteracy means",
     options: [
-      "Obeying laws",
-      "Truancy",
-      "Punctuality",
-      "Truthfulness"
+      "ability to read and write",
+      "inability to read and write",
+      "good leadership",
+      "wealth"
     ],
-    correctAnswer: "Truancy",
+    correctAnswer: "inability to read and write",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "A dishonest person is likely to __________.",
+    question: "Poverty can be reduced through",
     options: [
-      "Be trusted",
-      "Win everyone's respect",
-      "Be avoided",
-      "Gain promotion"
+      "education and job creation",
+      "stealing",
+      "violence",
+      "corruption"
     ],
-    correctAnswer: "Be avoided",
+    correctAnswer: "education and job creation",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Discipline helps young people to develop __________.",
+    question: "Humanitarian issues relate to",
     options: [
-      "Bad habits",
-      "Self-control",
-      "Laziness",
-      "Disobedience"
+      "animal farming",
+      "human suffering",
+      "sports",
+      "trading"
     ],
-    correctAnswer: "Self-control",
+    correctAnswer: "human suffering",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Honesty is important in business because it __________.",
+    question: "Flood disaster is an example of",
     options: [
-      "Drives customers away",
-      "Builds customer trust",
-      "Encourages stealing",
-      "Causes loss"
+      "humanitarian issue",
+      "entertainment",
+      "festival",
+      "election"
     ],
-    correctAnswer: "Builds customer trust",
+    correctAnswer: "humanitarian issue",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "A disciplined child at home will __________.",
+    question: "Refugees are people who",
     options: [
-      "Ignore parents",
-      "Help with chores",
-      "Fight siblings",
-      "Lie to parents"
+      "travel for fun",
+      "leave their homes due to danger",
+      "go to school",
+      "work abroad"
     ],
-    correctAnswer: "Help with chores",
+    correctAnswer: "leave their homes due to danger",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Honesty is important because it helps to build __________.",
+    question: "The organization that supports children’s welfare is",
     options: [
-      "Hatred",
-      "Fear",
-      "Trust",
-      "Problems"
+      "UNICEF",
+      "FIFA",
+      "WAEC",
+      "JAMB"
     ],
-    correctAnswer: "Trust",
+    correctAnswer: "UNICEF",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "A student shows discipline by __________.",
+    question: "Providing food and shelter to victims is called",
     options: [
-      "Coming late",
-      "Doing assignments",
-      "Cheating in exams",
-      "Making noise"
+      "punishment",
+      "relief service",
+      "corruption",
+      "entertainment"
     ],
-    correctAnswer: "Doing assignments",
+    correctAnswer: "relief service",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Indiscipline in a nation leads to __________.",
+    question: "Internally Displaced Persons (IDPs) are people who",
     options: [
-      "Peace",
-      "Development",
-      "Disorder",
-      "Progress"
+      "move within their country due to crisis",
+      "travel for tourism",
+      "change schools",
+      "relocate for work"
     ],
-    correctAnswer: "Disorder",
+    correctAnswer: "move within their country due to crisis",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "People who are honest are usually __________.",
+    question: "War can cause",
     options: [
-      "Punished",
-      "Trusted",
-      "Suspended",
-      "Ignored"
+      "peace",
+      "unity",
+      "displacement",
+      "celebration"
     ],
-    correctAnswer: "Trusted",
+    correctAnswer: "displacement",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Respect means __________.",
+    question: "Peace education teaches people how to",
     options: [
-      "Disobedience",
-      "Showing regard for others",
-      "Insulting people",
-      "Fighting"
+      "fight",
+      "cause trouble",
+      "resolve conflicts peacefully",
+      "argue always"
     ],
-    correctAnswer: "Showing regard for others",
+    correctAnswer: "resolve conflicts peacefully",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Elders deserve respect because they have __________.",
+    question: "Tolerance means",
     options: [
-      "Money",
-      "Power",
-      "Experience and wisdom",
-      "Fancy clothes"
+      "accepting others’ differences",
+      "hating others",
+      "fighting others",
+      "ignoring laws"
     ],
-    correctAnswer: "Experience and wisdom",
+    correctAnswer: "accepting others’ differences",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Which of the following shows respect for elders?",
+    question: "Dialogue is important in conflict resolution because it",
     options: [
-      "Greeting them politely",
-      "Shouting at them",
-      "Ignoring them",
-      "Laughing at them"
+      "increases violence",
+      "promotes understanding",
+      "causes war",
+      "wastes time"
     ],
-    correctAnswer: "Greeting them politely",
+    correctAnswer: "promotes understanding",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Authority refers to people who __________.",
+    question: "Forgiveness helps to",
     options: [
-      "Play with us",
-      "Act without rules",
-      "Make and enforce rules",
-      "Always complain"
+      "prolong conflict",
+      "build peace",
+      "create hatred",
+      "encourage revenge"
     ],
-    correctAnswer: "Make and enforce rules",
+    correctAnswer: "build peace",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Respecting authority helps to maintain __________.",
+    question: "One benefit of peace is",
     options: [
-      "Indiscipline",
-      "Order",
-      "Confusion",
-      "Fighting"
+      "destruction",
+      "development",
+      "poverty",
+      "crisis"
     ],
-    correctAnswer: "Order",
+    correctAnswer: "development",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "A sign of disrespect is __________.",
+    question: "Mediation involves",
     options: [
-      "Listening attentively",
-      "Greeting politely",
-      "Interrupting elders",
-      "Helping others"
+      "fighting",
+      "a third party helping to settle disputes",
+      "punishment",
+      "arrest"
     ],
-    correctAnswer: "Interrupting elders",
+    correctAnswer: "a third party helping to settle disputes",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Teachers deserve respect because they __________.",
+    question: "Violence can be reduced through",
     options: [
-      "Punish us",
-      "Teach and guide us",
-      "Give us gifts",
-      "Play with us"
+      "education",
+      "corruption",
+      "discrimination",
+      "injustice"
     ],
-    correctAnswer: "Teach and guide us",
+    correctAnswer: "education",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Respect in society promotes __________.",
+    question: "Human rights are",
     options: [
-      "Conflict",
-      "Peaceful living",
-      "Disunity",
-      "Noise"
+      "privileges for leaders",
+      "rights everyone is entitled to",
+      "gifts from parents",
+      "school rules"
     ],
-    correctAnswer: "Peaceful living",
+    correctAnswer: "rights everyone is entitled to",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Bowing, kneeling, or prostrating when greeting elders shows __________.",
+    question: "The right to life means",
     options: [
-      "Anger",
-      "Respect",
-      "Disrespect",
-      "Fear"
+      "freedom to harm",
+      "protection from unlawful killing",
+      "freedom to steal",
+      "freedom to fight"
     ],
-    correctAnswer: "Respect",
+    correctAnswer: "protection from unlawful killing",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "People in authority include all except __________.",
+    question: "Child abuse is a violation of",
     options: [
-      "Teachers",
-      "Police officers",
-      "Parents",
-      "Classmates"
+      "school rules",
+      "human rights",
+      "sports rules",
+      "traffic rules"
     ],
-    correctAnswer: "Classmates",
+    correctAnswer: "human rights",
     marks: 1
   },
   {
     id: 26,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Respecting elders helps young people to learn __________.",
+    question: "The organization that promotes global peace and human rights is",
     options: [
-      "Bad behaviour",
-      "Proper values",
-      "Disobedience",
-      "Laziness"
+      "United Nations",
+      "NBA",
+      "MTN",
+      "NTA"
     ],
-    correctAnswer: "Proper values",
+    correctAnswer: "United Nations",
     marks: 1
   },
   {
     id: 27,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "The opposite of respect is __________.",
+    question: "Discrimination means",
     options: [
-      "Love",
-      "Obedience",
-      "Disrespect",
-      "Kindness"
+      "fair treatment",
+      "unfair treatment of people",
+      "equal opportunity",
+      "kindness"
     ],
-    correctAnswer: "Disrespect",
+    correctAnswer: "unfair treatment of people",
     marks: 1
   },
   {
     id: 28,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "A respectful citizen will always __________.",
+    question: "Freedom of expression means",
     options: [
-      "Break rules",
-      "Fight others",
-      "Cooperate with leaders",
-      "Insult elders"
+      "freedom to insult",
+      "freedom to express opinions responsibly",
+      "freedom to fight",
+      "freedom to break laws"
     ],
-    correctAnswer: "Cooperate with leaders",
+    correctAnswer: "freedom to express opinions responsibly",
     marks: 1
   },
   {
     id: 29,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Respect for authority reduces __________.",
+    question: "Reporting abuse to authorities helps to",
     options: [
-      "Crime",
-      "Safety",
-      "Peace",
-      "Order"
+      "protect rights",
+      "increase crime",
+      "promote violence",
+      "cause fear"
     ],
-    correctAnswer: "Crime",
+    correctAnswer: "protect rights",
     marks: 1
   },
   {
     id: 30,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "A polite expression used when speaking to elders is __________.",
+    question: "Respecting others’ rights helps to promote",
     options: [
-      "What do you want?",
-      "Please sir/ma",
-      "Go away!",
-      "I don't care"
+      "peace",
+      "conflict",
+      "hatred",
+      "injustice"
     ],
-    correctAnswer: "Please sir/ma",
-    marks: 1
-  },
-  {
-    id: 31,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Tolerance means __________.",
-    options: [
-      "Accepting others' differences",
-      "Forcing others to behave like us",
-      "Hating people",
-      "Fighting others"
-    ],
-    correctAnswer: "Accepting others' differences",
-    marks: 1
-  },
-  {
-    id: 32,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "A tolerant person will __________.",
-    options: [
-      "Respect others' opinions",
-      "Insult others",
-      "Fight over disagreements",
-      "Avoid everyone"
-    ],
-    correctAnswer: "Respect others' opinions",
-    marks: 1
-  },
-  {
-    id: 33,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Tolerance promotes __________ in society.",
-    options: [
-      "Violence",
-      "Peaceful coexistence",
-      "Disunity",
-      "Hatred"
-    ],
-    correctAnswer: "Peaceful coexistence",
-    marks: 1
-  },
-  {
-    id: 34,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Intolerance often leads to __________.",
-    options: [
-      "Peace",
-      "Conflict",
-      "Unity",
-      "Development"
-    ],
-    correctAnswer: "Conflict",
-    marks: 1
-  },
-  {
-    id: 35,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "A good way to show tolerance is by __________.",
-    options: [
-      "Listening to others",
-      "Fighting back",
-      "Discriminating",
-      "Insulting them"
-    ],
-    correctAnswer: "Listening to others",
-    marks: 1
-  },
-  {
-    id: 36,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Tolerance helps people from different cultures to __________.",
-    options: [
-      "Live together peacefully",
-      "Fight always",
-      "Separate",
-      "Hate one another"
-    ],
-    correctAnswer: "Live together peacefully",
-    marks: 1
-  },
-  {
-    id: 37,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "A tolerant student will __________.",
-    options: [
-      "Bully classmates",
-      "Accept corrections",
-      "Mock others",
-      "Discriminate"
-    ],
-    correctAnswer: "Accept corrections",
-    marks: 1
-  },
-  {
-    id: 38,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Tolerance is important in a diverse society because it __________.",
-    options: [
-      "Promotes hatred",
-      "Encourages cooperation",
-      "Causes war",
-      "Reduces unity"
-    ],
-    correctAnswer: "Encourages cooperation",
-    marks: 1
-  },
-  {
-    id: 39,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "One cause of intolerance is __________.",
-    options: [
-      "Patience",
-      "Prejudice",
-      "Understanding",
-      "Respect"
-    ],
-    correctAnswer: "Prejudice",
-    marks: 1
-  },
-  {
-    id: 40,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Tolerance teaches people to __________.",
-    options: [
-      "Force others to agree",
-      "Accommodate differences",
-      "Always quarrel",
-      "Ignore everyone"
-    ],
-    correctAnswer: "Accommodate differences",
-    marks: 1
-  },
-  {
-    id: 41,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Intolerance in schools can lead to __________.",
-    options: [
-      "Peace",
-      "Bullying",
-      "Cooperation",
-      "Unity"
-    ],
-    correctAnswer: "Bullying",
-    marks: 1
-  },
-  {
-    id: 42,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "A tolerant society is one in which people __________.",
-    options: [
-      "Fight constantly",
-      "Respect differences",
-      "Hate outsiders",
-      "Disobey rules"
-    ],
-    correctAnswer: "Respect differences",
-    marks: 1
-  },
-  {
-    id: 43,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Religious tolerance means __________.",
-    options: [
-      "Allowing people to worship freely",
-      "Forcing a religion on others",
-      "Stopping people from worship",
-      "Hating other religions"
-    ],
-    correctAnswer: "Allowing people to worship freely",
-    marks: 1
-  },
-  {
-    id: 44,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "People show tolerance when they __________.",
-    options: [
-      "Listen before judging",
-      "Insult strangers",
-      "Mock other cultures",
-      "Spread rumours"
-    ],
-    correctAnswer: "Listen before judging",
-    marks: 1
-  },
-  {
-    id: 45,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Tolerance helps nations to __________.",
-    options: [
-      "Break apart",
-      "Develop faster",
-      "Fight more",
-      "Encourage hatred"
-    ],
-    correctAnswer: "Develop faster",
-    marks: 1
-  },
-  {
-    id: 46,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Democracy means __________.",
-    options: [
-      "Rule by one person",
-      "Rule by the people",
-      "Rule by soldiers",
-      "Rule by kings"
-    ],
-    correctAnswer: "Rule by the people",
-    marks: 1
-  },
-  {
-    id: 47,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Good governance promotes __________.",
-    options: [
-      "Corruption",
-      "Accountability",
-      "Injustice",
-      "Oppression"
-    ],
-    correctAnswer: "Accountability",
-    marks: 1
-  },
-  {
-    id: 48,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "A democratic government must be __________.",
-    options: [
-      "Secretive",
-      "Transparent",
-      "Violent",
-      "Corrupt"
-    ],
-    correctAnswer: "Transparent",
-    marks: 1
-  },
-  {
-    id: 49,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "In democracy, leaders are chosen through __________.",
-    options: [
-      "War",
-      "Elections",
-      "Force",
-      "Inheritance"
-    ],
-    correctAnswer: "Elections",
-    marks: 1
-  },
-  {
-    id: 50,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "One feature of good governance is __________.",
-    options: [
-      "Tribalism",
-      "Justice and fairness",
-      "Oppression",
-      "Fraud"
-    ],
-    correctAnswer: "Justice and fairness",
-    marks: 1
-  },
-  {
-    id: 51,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Democracy protects the __________ of citizens.",
-    options: [
-      "Rights",
-      "Weakness",
-      "Fears",
-      "Problems"
-    ],
-    correctAnswer: "Rights",
-    marks: 1
-  },
-  {
-    id: 52,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "A bad government is usually __________.",
-    options: [
-      "Corrupt",
-      "Accountable",
-      "Transparent",
-      "Just"
-    ],
-    correctAnswer: "Corrupt",
-    marks: 1
-  },
-  {
-    id: 53,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "The rule of law means __________.",
-    options: [
-      "Only the rich obey laws",
-      "Everyone is equal before the law",
-      "Leaders make personal rules",
-      "Some people are above the law"
-    ],
-    correctAnswer: "Everyone is equal before the law",
-    marks: 1
-  },
-  {
-    id: 54,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "In a democracy, citizens have the right to __________.",
-    options: [
-      "Vote and be voted for",
-      "Pay bribes",
-      "Disobey laws",
-      "Oppress others"
-    ],
-    correctAnswer: "Vote and be voted for",
-    marks: 1
-  },
-  {
-    id: 55,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Good governance helps a nation to __________.",
-    options: [
-      "Develop",
-      "Collapse",
-      "Fight",
-      "Promote corruption"
-    ],
-    correctAnswer: "Develop",
-    marks: 1
-  },
-  {
-    id: 56,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "A democratic leader must be __________.",
-    options: [
-      "Dictatorial",
-      "Accountable",
-      "Dishonest",
-      "Tribalistic"
-    ],
-    correctAnswer: "Accountable",
-    marks: 1
-  },
-  {
-    id: 57,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "Good governance ensures __________ distribution of resources.",
-    options: [
-      "Unfair",
-      "Tribal",
-      "Fair",
-      "Corrupt"
-    ],
-    correctAnswer: "Fair",
-    marks: 1
-  },
-  {
-    id: 58,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "One advantage of democracy is __________.",
-    options: [
-      "Denial of rights",
-      "Freedom of speech",
-      "Oppression",
-      "Lack of choice"
-    ],
-    correctAnswer: "Freedom of speech",
-    marks: 1
-  },
-  {
-    id: 59,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "A government that listens to the people shows __________.",
-    options: [
-      "Intolerance",
-      "Participation",
-      "Inequality",
-      "Corruption"
-    ],
-    correctAnswer: "Participation",
-    marks: 1
-  },
-  {
-    id: 60,
-    type: 'multiple-choice',
-    subject: 'scs',
-    question: "In democracy, power belongs to __________.",
-    options: [
-      "A single ruler",
-      "The military",
-      "The people",
-      "Foreigners"
-    ],
-    correctAnswer: "The people",
+    correctAnswer: "peace",
     marks: 1
   }
 ];

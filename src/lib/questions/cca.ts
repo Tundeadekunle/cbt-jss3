@@ -1,845 +1,425 @@
 import { Question } from '@/types';
 
 export const ccaQuestions: Question[] = [
-  // Section A: Multiple Choice Questions (60 Questions)
+  // Section A: Multiple Choice Questions (30 Questions)
   {
     id: 1,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The principles of art and design are used to __________.",
+    question: "Embroidery is the art of decorating fabric with",
     options: [
-      "Create chaos in artwork",
-      "Organize elements in a pleasing way",
-      "Add color only",
-      "Make art look dull"
+      "gum",
+      "thread and needle",
+      "pins",
+      "chalk"
     ],
-    correctAnswer: "Organize elements in a pleasing way",
+    correctAnswer: "thread and needle",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Which of the following is a principle of design?",
+    question: "One common tool used in embroidery is",
     options: [
-      "Line",
-      "Shape",
-      "Balance",
-      "Texture"
+      "sewing machine",
+      "embroidery hoop",
+      "hammer",
+      "ruler"
     ],
-    correctAnswer: "Balance",
+    correctAnswer: "embroidery hoop",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "When both sides of an artwork are equal or similar, it shows __________.",
+    question: "The frame used to keep fabric tight during embroidery is called",
     options: [
-      "Harmony",
-      "Balance",
-      "Rhythm",
-      "Proportion"
+      "loom",
+      "spindle",
+      "embroidery hoop",
+      "frame board"
     ],
-    correctAnswer: "Balance",
+    correctAnswer: "embroidery hoop",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The relationship in size between different parts of an object is called __________.",
+    question: "Which of the following is a basic embroidery stitch?",
     options: [
-      "Pattern",
-      "Proportion",
-      "Contrast",
-      "Texture"
+      "Back stitch",
+      "Lock stitch",
+      "Knot stitch",
+      "Top stitch"
     ],
-    correctAnswer: "Proportion",
+    correctAnswer: "Back stitch",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The arrangement of elements to create visual movement is called __________.",
+    question: "The material on which embroidery is done is mainly",
     options: [
-      "Balance",
-      "Rhythm",
-      "Emphasis",
-      "Unity"
+      "metal",
+      "fabric",
+      "wood",
+      "plastic"
     ],
-    correctAnswer: "Rhythm",
+    correctAnswer: "fabric",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The principle that makes one part of an artwork stand out more than others is __________.",
+    question: "Knitting is done using",
     options: [
-      "Unity",
-      "Emphasis",
-      "Variety",
-      "Rhythm"
+      "crochet hook",
+      "knitting needles",
+      "scissors",
+      "loom"
     ],
-    correctAnswer: "Emphasis",
+    correctAnswer: "knitting needles",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Repetition of lines, shapes, or colors creates __________.",
+    question: "Knitting involves forming",
     options: [
-      "Movement",
-      "Pattern",
-      "Proportion",
-      "Contrast"
+      "knots",
+      "loops of yarn",
+      "holes",
+      "folds"
     ],
-    correctAnswer: "Pattern",
+    correctAnswer: "loops of yarn",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "When different elements are combined to add interest, it is called __________.",
+    question: "Which material is mostly used for knitting?",
     options: [
-      "Variety",
-      "Rhythm",
-      "Balance",
-      "Proportion"
+      "thread",
+      "rope",
+      "yarn",
+      "wire"
     ],
-    correctAnswer: "Variety",
+    correctAnswer: "yarn",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The principle that makes a work of art look complete and pleasing is __________.",
+    question: "A common product of knitting is",
     options: [
-      "Balance",
-      "Unity",
-      "Pattern",
-      "Contrast"
+      "sweater",
+      "chair",
+      "bag",
+      "table"
     ],
-    correctAnswer: "Unity",
+    correctAnswer: "sweater",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The use of light and dark colors to create differences is called __________.",
+    question: "Knitting needles are usually used in",
     options: [
-      "Rhythm",
-      "Harmony",
-      "Contrast",
-      "Balance"
+      "pairs",
+      "threes",
+      "fours",
+      "fives"
     ],
-    correctAnswer: "Contrast",
+    correctAnswer: "pairs",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Equal visual weight on both sides of a composition is called __________ balance.",
+    question: "Crocheting is done with a",
     options: [
-      "Asymmetrical",
-      "Symmetrical",
-      "Radial",
-      "Informal"
+      "needle",
+      "hook",
+      "knife",
+      "pin"
     ],
-    correctAnswer: "Symmetrical",
+    correctAnswer: "hook",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The use of gradual change in color or size to show movement is called __________.",
+    question: "The tool used in crocheting is called",
     options: [
-      "Transition",
-      "Emphasis",
-      "Contrast",
-      "Variety"
+      "knitting hook",
+      "crochet hook",
+      "sewing hook",
+      "weaving hook"
     ],
-    correctAnswer: "Transition",
+    correctAnswer: "crochet hook",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The act of making marks on a surface to represent objects is called __________.",
+    question: "Crocheting uses",
     options: [
-      "Painting",
-      "Drawing",
-      "Printing",
-      "Modeling"
+      "two needles",
+      "one hook",
+      "three needles",
+      "four hooks"
     ],
-    correctAnswer: "Drawing",
+    correctAnswer: "one hook",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The main purpose of drawing is to __________.",
+    question: "One difference between knitting and crocheting is that crocheting uses",
     options: [
-      "Waste time",
-      "Record or express ideas",
-      "Create confusion",
-      "Fill a paper"
+      "two needles",
+      "one hook",
+      "thread only",
+      "cloth"
     ],
-    correctAnswer: "Record or express ideas",
+    correctAnswer: "one hook",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The foundation of all drawings is the use of __________.",
+    question: "Which of these is a product of crocheting?",
     options: [
-      "Shapes",
-      "Lines",
-      "Dots",
-      "Colors"
+      "cap",
+      "glass",
+      "shoe polish",
+      "tray"
     ],
-    correctAnswer: "Lines",
+    correctAnswer: "cap",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Drawing from life or real objects is called __________.",
+    question: "The process of making decorative designs on fabric with thread is called",
     options: [
-      "Imaginative drawing",
-      "Memory drawing",
-      "Life drawing",
-      "Abstract drawing"
+      "sewing",
+      "knitting",
+      "embroidery",
+      "weaving"
     ],
-    correctAnswer: "Life drawing",
+    correctAnswer: "embroidery",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The outline of an object in drawing is called a __________.",
+    question: "One importance of embroidery is to",
     options: [
-      "Contour",
-      "Texture",
-      "Tone",
-      "Shading"
+      "decorate fabric",
+      "wash clothes",
+      "iron cloth",
+      "fold cloth"
     ],
-    correctAnswer: "Contour",
+    correctAnswer: "decorate fabric",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The lightness or darkness of an area in a drawing is known as __________.",
+    question: "A basic stitch used in embroidery for outlining designs is",
     options: [
-      "Texture",
-      "Tone",
-      "Color",
-      "Shape"
+      "back stitch",
+      "slip stitch",
+      "chain stitch",
+      "knit stitch"
     ],
-    correctAnswer: "Tone",
+    correctAnswer: "chain stitch",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The technique of using dots to create tones is called __________.",
+    question: "A crochet hook is usually made from",
     options: [
-      "Hatching",
-      "Stippling",
-      "Blending",
-      "Cross-hatching"
+      "wood, metal or plastic",
+      "glass",
+      "paper",
+      "leather"
     ],
-    correctAnswer: "Stippling",
+    correctAnswer: "wood, metal or plastic",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The technique of using parallel lines to create shading is called __________.",
+    question: "Yarn used for knitting and crocheting can be made from",
     options: [
-      "Cross-hatching",
-      "Hatching",
-      "Blending",
-      "Pointillism"
+      "cotton",
+      "wool",
+      "acrylic",
+      "all of the above"
     ],
-    correctAnswer: "Hatching",
+    correctAnswer: "all of the above",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "In drawing, perspective is used to show __________.",
+    question: "The first step in embroidery is to",
     options: [
-      "Movement",
-      "Depth and distance",
-      "Color and texture",
-      "Balance"
+      "wash the cloth",
+      "draw the design",
+      "cut the cloth",
+      "iron the cloth"
     ],
-    correctAnswer: "Depth and distance",
+    correctAnswer: "draw the design",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The vanishing point is found on the __________.",
+    question: "Knitting is mainly used for making",
     options: [
-      "Horizon line",
-      "Vertical line",
-      "Foreground",
-      "Background"
+      "warm clothing",
+      "shoes",
+      "chairs",
+      "plates"
     ],
-    correctAnswer: "Horizon line",
+    correctAnswer: "warm clothing",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "A drawing that shows the front and sides of objects in proper proportion is called __________.",
+    question: "One safety rule in needlework is to",
     options: [
-      "Still life",
-      "Portrait",
-      "Perspective drawing",
-      "Cartoon"
+      "keep needles in the mouth",
+      "keep needles in a pin cushion",
+      "throw needles on the floor",
+      "give needles to children"
     ],
-    correctAnswer: "Perspective drawing",
+    correctAnswer: "keep needles in a pin cushion",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The act of arranging objects for drawing is called __________.",
+    question: "The chain stitch is commonly used in",
     options: [
-      "Composition",
-      "Observation",
-      "Contour",
-      "Imagination"
+      "embroidery",
+      "carpentry",
+      "welding",
+      "bricklaying"
     ],
-    correctAnswer: "Composition",
+    correctAnswer: "embroidery",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The art of applying color to a surface is called __________.",
+    question: "Crochet hooks come in different",
     options: [
-      "Sculpture",
-      "Drawing",
-      "Painting",
-      "Weaving"
+      "colours only",
+      "shapes only",
+      "sizes",
+      "weights"
     ],
-    correctAnswer: "Painting",
+    correctAnswer: "sizes",
     marks: 1
   },
   {
     id: 26,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Which of these is NOT a painting medium?",
+    question: "Knitting produces fabric by",
     options: [
-      "Watercolor",
-      "Oil paint",
-      "Charcoal",
-      "Acrylic"
+      "tying knots",
+      "interlocking loops",
+      "cutting cloth",
+      "folding cloth"
     ],
-    correctAnswer: "Charcoal",
+    correctAnswer: "interlocking loops",
     marks: 1
   },
   {
     id: 27,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The thin mixture of pigment and water is called __________.",
+    question: "One advantage of knitting and crocheting is that it",
     options: [
-      "Wash",
-      "Impasto",
-      "Underpainting",
-      "Texture"
+      "wastes time",
+      "destroys fabric",
+      "provides useful clothing items",
+      "damages yarn"
     ],
-    correctAnswer: "Wash",
+    correctAnswer: "provides useful clothing items",
     marks: 1
   },
   {
     id: 28,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Applying thick paint with a palette knife is known as __________ technique.",
+    question: "Embroidery thread is also known as",
     options: [
-      "Glazing",
-      "Stippling",
-      "Impasto",
-      "Scumbling"
+      "yarn",
+      "floss",
+      "rope",
+      "wire"
     ],
-    correctAnswer: "Impasto",
+    correctAnswer: "floss",
     marks: 1
   },
   {
     id: 29,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The process of mixing colors to get new shades is called __________.",
+    question: "Which of the following is NOT a needlework activity?",
     options: [
-      "Blending",
-      "Blocking",
-      "Tinting",
-      "Glazing"
+      "Embroidery",
+      "Knitting",
+      "Crocheting",
+      "Painting"
     ],
-    correctAnswer: "Blending",
+    correctAnswer: "Painting",
     marks: 1
   },
   {
     id: 30,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "When water-based colors are used on paper, the painting is called __________.",
+    question: "A small cushion used for keeping needles safely is called",
     options: [
-      "Oil painting",
-      "Watercolor painting",
-      "Fresco",
-      "Tempera"
+      "needle bag",
+      "pin cushion",
+      "cloth holder",
+      "hook pad"
     ],
-    correctAnswer: "Watercolor painting",
-    marks: 1
-  },
-  {
-    id: 31,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The surface on which a painting is done is called __________.",
-    options: [
-      "Canvas",
-      "Palette",
-      "Easel",
-      "Brush"
-    ],
-    correctAnswer: "Canvas",
-    marks: 1
-  },
-  {
-    id: 32,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "A sketch done before a final painting is known as a __________.",
-    options: [
-      "Model",
-      "Cartoon (preliminary sketch)",
-      "Copy",
-      "Poster"
-    ],
-    correctAnswer: "Cartoon (preliminary sketch)",
-    marks: 1
-  },
-  {
-    id: 33,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The technique of applying a transparent layer of paint over another is called __________.",
-    options: [
-      "Blending",
-      "Glazing",
-      "Washing",
-      "Layering"
-    ],
-    correctAnswer: "Glazing",
-    marks: 1
-  },
-  {
-    id: 34,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "In oil painting, turpentine is used as a __________.",
-    options: [
-      "Color",
-      "Solvent",
-      "Fixative",
-      "Binder"
-    ],
-    correctAnswer: "Solvent",
-    marks: 1
-  },
-  {
-    id: 35,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The process of cleaning brushes after painting involves using __________.",
-    options: [
-      "Water or turpentine",
-      "Glue",
-      "Ink",
-      "Wax"
-    ],
-    correctAnswer: "Water or turpentine",
-    marks: 1
-  },
-  {
-    id: 36,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The primary colors are __________.",
-    options: [
-      "Red, blue, yellow",
-      "Green, purple, orange",
-      "Red, green, blue",
-      "Black, white, gray"
-    ],
-    correctAnswer: "Red, blue, yellow",
-    marks: 1
-  },
-  {
-    id: 37,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "Traditional Nigerian music is mainly used for __________.",
-    options: [
-      "Entertainment and ceremonies",
-      "Sleeping",
-      "Reading",
-      "Silence"
-    ],
-    correctAnswer: "Entertainment and ceremonies",
-    marks: 1
-  },
-  {
-    id: 38,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "Nigerian traditional music is usually passed down through __________.",
-    options: [
-      "Written notation",
-      "Oral tradition",
-      "Video recording",
-      "Books"
-    ],
-    correctAnswer: "Oral tradition",
-    marks: 1
-  },
-  {
-    id: 39,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "Which of the following is a Yoruba traditional musical instrument?",
-    options: [
-      "Udu drum",
-      "Bata drum",
-      "Ekwe",
-      "Kalangu"
-    ],
-    correctAnswer: "Bata drum",
-    marks: 1
-  },
-  {
-    id: 40,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The talking drum is known as __________ among the Hausa people.",
-    options: [
-      "Dundun",
-      "Kalangu",
-      "Udu",
-      "Ogene"
-    ],
-    correctAnswer: "Kalangu",
-    marks: 1
-  },
-  {
-    id: 41,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The Igbo use the __________ in traditional music.",
-    options: [
-      "Maracas",
-      "Ogene",
-      "Xylophone",
-      "Castanets"
-    ],
-    correctAnswer: "Ogene",
-    marks: 1
-  },
-  {
-    id: 42,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The musical instrument made from clay is the __________.",
-    options: [
-      "Udu",
-      "Shekere",
-      "Ogene",
-      "Drum"
-    ],
-    correctAnswer: "Udu",
-    marks: 1
-  },
-  {
-    id: 43,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "Traditional songs are often performed during __________.",
-    options: [
-      "Festivals and ceremonies",
-      "Television shows",
-      "Exams",
-      "Sports"
-    ],
-    correctAnswer: "Festivals and ceremonies",
-    marks: 1
-  },
-  {
-    id: 44,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "Nigerian traditional music involves both singing and __________.",
-    options: [
-      "Dancing",
-      "Reading",
-      "Acting",
-      "Writing"
-    ],
-    correctAnswer: "Dancing",
-    marks: 1
-  },
-  {
-    id: 45,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The Shekere is a type of __________ instrument.",
-    options: [
-      "String",
-      "Wind",
-      "Percussion",
-      "Keyboard"
-    ],
-    correctAnswer: "Percussion",
-    marks: 1
-  },
-  {
-    id: 46,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The Hausa people use the Kora instrument mainly for __________.",
-    options: [
-      "Storytelling and praise singing",
-      "Sports",
-      "War",
-      "School lessons"
-    ],
-    correctAnswer: "Storytelling and praise singing",
-    marks: 1
-  },
-  {
-    id: 47,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The Igbo highlife style evolved from __________.",
-    options: [
-      "Traditional rhythms",
-      "Jazz",
-      "Gospel",
-      "Rock"
-    ],
-    correctAnswer: "Traditional rhythms",
-    marks: 1
-  },
-  {
-    id: 48,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "Traditional Nigerian musicians often serve as __________.",
-    options: [
-      "Priests and teachers",
-      "Praise singers and historians",
-      "Doctors",
-      "Politicians"
-    ],
-    correctAnswer: "Praise singers and historians",
-    marks: 1
-  },
-  {
-    id: 49,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "Drama is the art of __________.",
-    options: [
-      "Singing",
-      "Acting and performing",
-      "Painting",
-      "Drawing"
-    ],
-    correctAnswer: "Acting and performing",
-    marks: 1
-  },
-  {
-    id: 50,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The written form of drama is called a __________.",
-    options: [
-      "Script",
-      "Song",
-      "Poem",
-      "Storybook"
-    ],
-    correctAnswer: "Script",
-    marks: 1
-  },
-  {
-    id: 51,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The people who act in a play are called __________.",
-    options: [
-      "Readers",
-      "Dancers",
-      "Actors",
-      "Viewers"
-    ],
-    correctAnswer: "Actors",
-    marks: 1
-  },
-  {
-    id: 52,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The person who directs and organizes a play is the __________.",
-    options: [
-      "Actor",
-      "Director",
-      "Playwright",
-      "Stagehand"
-    ],
-    correctAnswer: "Director",
-    marks: 1
-  },
-  {
-    id: 53,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The place where a play is performed is the __________.",
-    options: [
-      "Stage",
-      "Screen",
-      "Studio",
-      "Room"
-    ],
-    correctAnswer: "Stage",
-    marks: 1
-  },
-  {
-    id: 54,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "Improvisation means __________.",
-    options: [
-      "Acting without a written script",
-      "Rehearsing the script",
-      "Reading lines from a book",
-      "Directing a play"
-    ],
-    correctAnswer: "Acting without a written script",
-    marks: 1
-  },
-  {
-    id: 55,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The person who writes plays is called a __________.",
-    options: [
-      "Dramatist or playwright",
-      "Musician",
-      "Poet",
-      "Painter"
-    ],
-    correctAnswer: "Dramatist or playwright",
-    marks: 1
-  },
-  {
-    id: 56,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "Props in drama refer to __________.",
-    options: [
-      "Costumes worn by actors",
-      "Items or objects used on stage",
-      "Lights and sound effects",
-      "Music and songs"
-    ],
-    correctAnswer: "Items or objects used on stage",
-    marks: 1
-  },
-  {
-    id: 57,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The main message or lesson in a play is called the __________.",
-    options: [
-      "Plot",
-      "Theme",
-      "Script",
-      "Scene"
-    ],
-    correctAnswer: "Theme",
-    marks: 1
-  },
-  {
-    id: 58,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "The series of events that form the story in a play is the __________.",
-    options: [
-      "Plot",
-      "Act",
-      "Scene",
-      "Dialogue"
-    ],
-    correctAnswer: "Plot",
-    marks: 1
-  },
-  {
-    id: 59,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "A short performance created on the spot is called __________.",
-    options: [
-      "Improvised drama",
-      "Musical",
-      "Documentary",
-      "Mime"
-    ],
-    correctAnswer: "Improvised drama",
-    marks: 1
-  },
-  {
-    id: 60,
-    type: 'multiple-choice',
-    subject: 'cca',
-    question: "Costumes in drama help to show a character's __________.",
-    options: [
-      "Occupation or role",
-      "Weight",
-      "Religion",
-      "Age only"
-    ],
-    correctAnswer: "Occupation or role",
+    correctAnswer: "pin cushion",
     marks: 1
   }
 ];

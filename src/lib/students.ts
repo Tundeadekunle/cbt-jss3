@@ -6,21 +6,21 @@ export const students: Student[] = [
     name: 'Jesusoretire Hodiah', 
     class: 'JSS 2', 
     email: 'sodim@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'scs']
+    subjects: [ 'science', 'history', 'cca', 'phe', 'crs', 'business', 'scs', 'vocational-studies', 'english',]
   },
   { 
     id: 'MTH037STU', 
     name: 'Sanni Bazeet', 
     class: 'JSS 2', 
     email: 'salam@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'scs']
+    subjects: [ 'science', 'history', 'cca', 'phe', 'crs', 'business', 'scs', 'vocational-studies', 'english',]
   },
   { 
     id: 'MTH038STU', 
     name: 'Koleoso Rachael', 
     class: 'JSS 2', 
     email: 'alamuy@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'scs']
+    subjects: [ 'science', 'history', 'cca', 'phe', 'crs', 'business', 'scs', 'vocational-studies', 'english',]
   },
   
 { 
@@ -28,14 +28,14 @@ export const students: Student[] = [
     name: 'Wale Seun', 
     class: 'BASIC VI', 
     email: 'jsy@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'scs']
+    subjects: [ 'science', 'history', 'cca', 'phe', 'crs', 'business', 'scs', 'vocational-studies', 'english',]
   },
   { 
     id: 'MTH0028STU', 
     name: 'Kay Will', 
     class: 'JSS 2', 
     email: 'jsy@school.edu',
-    subjects: ['science', 'history', 'cca', 'computer', 'phe', 'crs', 'business', 'scs']
+    subjects: ['science', 'history', 'cca', 'phe', 'crs', 'business', 'scs', 'vocational-studies', 'english',]
   },
   
   // Add more students...
