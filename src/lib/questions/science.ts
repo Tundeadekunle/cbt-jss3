@@ -1,845 +1,424 @@
 import { Question } from '@/types';
 
 export const scienceQuestions: Question[] = [
-  // Section A: Multiple Choice Questions (60 Questions)
   {
     id: 1,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Matter is anything that __________.",
+    question: "The basic unit of life is the",
     options: [
-      "Has mass and occupies space",
-      "Can be seen",
-      "Has weight only",
-      "Has colour"
+      "tissue",
+      "organ",
+      "cell",
+      "system"
     ],
-    correctAnswer: "Has mass and occupies space",
+    correctAnswer: "cell",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The three physical states of matter are __________.",
+    question: "Which part of the cell controls all activities of the cell?",
     options: [
-      "Solid, water, and air",
-      "Solid, liquid, and gas",
-      "Ice, steam, and smoke",
-      "Water, air, and fire"
+      "Cytoplasm",
+      "Nucleus",
+      "Cell wall",
+      "Vacuole"
     ],
-    correctAnswer: "Solid, liquid, and gas",
+    correctAnswer: "Nucleus",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'science',
-    question: "In which state of matter are particles tightly packed?",
+    question: "The cell part that produces energy for the cell is the",
     options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
+      "ribosome",
+      "nucleus",
+      "mitochondrion",
+      "vacuole"
     ],
-    correctAnswer: "Solid",
+    correctAnswer: "mitochondrion",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The ability of a substance to change shape but not volume describes which state of matter?",
+    question: "A group of similar cells working together to perform the same function is called",
     options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
+      "an organ",
+      "a system",
+      "a tissue",
+      "a cell"
     ],
-    correctAnswer: "Liquid",
+    correctAnswer: "a tissue",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which of the following is an example of a solid?",
+    question: "Which of the following is an example of a plant tissue?",
     options: [
-      "Oxygen",
-      "Sugar",
-      "Petrol",
-      "Steam"
+      "Muscle tissue",
+      "Nerve tissue",
+      "Xylem tissue",
+      "Blood tissue"
     ],
-    correctAnswer: "Sugar",
+    correctAnswer: "Xylem tissue",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The particles in a gas move __________.",
+    question: "An organ is best described as",
     options: [
-      "Slowly and in fixed positions",
-      "Freely and rapidly",
-      "Not at all",
-      "Only in circles"
+      "a group of cells",
+      "a group of tissues working together",
+      "a group of systems",
+      "a single cell"
     ],
-    correctAnswer: "Freely and rapidly",
+    correctAnswer: "a group of tissues working together",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The process by which a solid changes directly into a gas is called __________.",
+    question: "Which of the following is an example of an organ in the human body?",
     options: [
-      "Condensation",
-      "Sublimation",
-      "Freezing",
-      "Melting"
+      "Blood",
+      "Muscle",
+      "Heart",
+      "Cell"
     ],
-    correctAnswer: "Sublimation",
+    correctAnswer: "Heart",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which of these is a property of solids?",
+    question: "The main function of muscle tissue is to",
     options: [
-      "Definite shape and volume",
-      "No fixed shape",
-      "Easily compressed",
-      "Flows freely"
+      "carry oxygen",
+      "protect the body",
+      "bring about movement",
+      "digest food"
     ],
-    correctAnswer: "Definite shape and volume",
+    correctAnswer: "bring about movement",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Water changes from liquid to gas by __________.",
+    question: "The transmission of characteristics from parents to their offspring is called",
     options: [
-      "Freezing",
-      "Melting",
-      "Evaporation",
-      "Condensation"
+      "adaptation",
+      "variation",
+      "heredity",
+      "mutation"
     ],
-    correctAnswer: "Evaporation",
+    correctAnswer: "heredity",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'science',
-    question: "When a gas is cooled, it becomes a __________.",
+    question: "Which of the following is an inherited characteristic?",
     options: [
-      "Solid",
-      "Liquid",
-      "Plasma",
-      "Ice"
+      "Ability to speak English",
+      "Skin colour",
+      "Skill in football",
+      "Scar on the body"
     ],
-    correctAnswer: "Liquid",
+    correctAnswer: "Skin colour",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The smallest particle of matter that can exist independently is called a __________.",
+    question: "Differences that exist among individuals of the same species are known as",
     options: [
-      "Atom",
-      "Compound",
-      "Mixture",
-      "Solution"
+      "heredity",
+      "adaptation",
+      "variation",
+      "survival"
     ],
-    correctAnswer: "Atom",
+    correctAnswer: "variation",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Matter can be classified broadly into __________.",
+    question: "Which of the following is an example of variation among humans?",
     options: [
-      "Pure substances and mixtures",
-      "Solids and gases",
-      "Water and air",
-      "Elements and compounds only"
+      "Two eyes",
+      "One nose",
+      "Different heights",
+      "One mouth"
     ],
-    correctAnswer: "Pure substances and mixtures",
+    correctAnswer: "Different heights",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which of the following is a physical change?",
+    question: "Adaptation is best described as",
     options: [
-      "Burning paper",
-      "Rusting iron",
-      "Melting ice",
-      "Cooking rice"
+      "ability to reproduce",
+      "change caused by illness",
+      "special features that help an organism survive",
+      "movement from one place to another"
     ],
-    correctAnswer: "Melting ice",
+    correctAnswer: "special features that help an organism survive",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which of these is a chemical change?",
+    question: "The long neck of a giraffe is an adaptation for",
     options: [
-      "Melting wax",
-      "Dissolving sugar in water",
-      "Burning wood",
-      "Freezing water"
+      "running fast",
+      "protection from enemies",
+      "feeding on tall trees",
+      "breathing easily"
     ],
-    correctAnswer: "Burning wood",
+    correctAnswer: "feeding on tall trees",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Matter can change from one state to another when __________ changes.",
+    question: "Webbed feet in ducks help them to",
     options: [
-      "Light",
-      "Temperature",
-      "Colour",
-      "Pressure only"
+      "climb trees",
+      "run fast",
+      "swim easily",
+      "catch insects"
     ],
-    correctAnswer: "Temperature",
+    correctAnswer: "swim easily",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'science',
-    question: "A mixture is a combination of two or more substances that are __________.",
+    question: "Which of the following helps a cactus survive in the desert?",
     options: [
-      "Chemically combined",
-      "Physically combined",
-      "Both chemically and physically",
-      "Reacted"
+      "Broad leaves",
+      "Soft stem",
+      "Thick stem",
+      "Weak roots"
     ],
-    correctAnswer: "Physically combined",
+    correctAnswer: "Thick stem",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which of the following is a homogeneous mixture?",
+    question: "Which of the following is a physical change?",
     options: [
-      "Oil and water",
-      "Air",
-      "Sand and salt",
-      "Kerosene and water"
+      "Burning of paper",
+      "Rusting of iron",
+      "Melting of ice",
+      "Cooking of food"
     ],
-    correctAnswer: "Air",
+    correctAnswer: "Melting of ice",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The method used to separate sand from water is __________.",
+    question: "A change that can be reversed is known as",
     options: [
-      "Filtration",
-      "Evaporation",
-      "Distillation",
-      "Decantation"
+      "chemical change",
+      "physical change",
+      "permanent change",
+      "harmful change"
     ],
-    correctAnswer: "Filtration",
+    correctAnswer: "physical change",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which separation method is used to get salt from salt solution?",
+    question: "Which of the following is a chemical change?",
     options: [
-      "Filtration",
-      "Evaporation",
-      "Sedimentation",
-      "Decantation"
+      "Freezing of water",
+      "Evaporation of water",
+      "Rusting of iron",
+      "Dissolving sugar in water"
     ],
-    correctAnswer: "Evaporation",
+    correctAnswer: "Rusting of iron",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The process of heating a liquid to form vapor and then cooling the vapor is called __________.",
+    question: "Water changes from liquid to gas through the process of",
     options: [
-      "Distillation",
-      "Filtration",
-      "Evaporation",
-      "Sublimation"
+      "condensation",
+      "melting",
+      "freezing",
+      "evaporation"
     ],
-    correctAnswer: "Distillation",
+    correctAnswer: "evaporation",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which separation technique is used to separate a mixture of colored dyes?",
+    question: "Which of the following is a source of water?",
     options: [
-      "Filtration",
-      "Chromatography",
-      "Sedimentation",
-      "Distillation"
+      "Wind",
+      "River",
+      "Smoke",
+      "Dust"
     ],
-    correctAnswer: "Chromatography",
+    correctAnswer: "River",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'science',
-    question: "What separation method is used to separate oil and water?",
+    question: "The gas that supports burning in air is",
     options: [
-      "Decantation",
-      "Filtration",
-      "Distillation",
-      "Crystallization"
+      "nitrogen",
+      "carbon dioxide",
+      "oxygen",
+      "hydrogen"
     ],
-    correctAnswer: "Decantation",
+    correctAnswer: "oxygen",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The solid that remains on the filter paper after filtration is called the __________.",
+    question: "Which of the following is a use of air?",
     options: [
-      "Filtrate",
-      "Residue",
-      "Solution",
-      "Solvent"
+      "Making food",
+      "Breathing",
+      "Producing water",
+      "Forming soil"
     ],
-    correctAnswer: "Residue",
+    correctAnswer: "Breathing",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The clear liquid that passes through the filter paper is called the __________.",
+    question: "Microorganisms are best described as",
     options: [
-      "Solvent",
-      "Filtrate",
-      "Solute",
-      "Residue"
+      "plants we can see clearly",
+      "animals that live in water",
+      "very small living things seen with a microscope",
+      "dead organisms"
     ],
-    correctAnswer: "Filtrate",
+    correctAnswer: "very small living things seen with a microscope",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which of these mixtures can be separated by a magnet?",
+    question: "Which of the following diseases is caused by microorganisms?",
     options: [
-      "Sand and water",
-      "Iron filings and sand",
-      "Salt and water",
-      "Sugar and milk"
+      "Malaria",
+      "Sickle cell anaemia",
+      "Rickets",
+      "Kwashiorkor"
     ],
-    correctAnswer: "Iron filings and sand",
+    correctAnswer: "Malaria",
     marks: 1
   },
   {
     id: 26,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Crystallization is used to __________.",
+    question: "The microorganism that causes malaria is transmitted by",
     options: [
-      "Obtain pure crystals from a solution",
-      "Mix liquids",
-      "Dissolve solids",
-      "Boil water"
+      "housefly",
+      "tsetse fly",
+      "mosquito",
+      "cockroach"
     ],
-    correctAnswer: "Obtain pure crystals from a solution",
+    correctAnswer: "mosquito",
     marks: 1
   },
   {
     id: 27,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The mixture of alcohol and water can be separated by __________.",
+    question: "One way of preventing diseases caused by microorganisms is by",
     options: [
-      "Filtration",
-      "Fractional distillation",
-      "Decantation",
-      "Sedimentation"
+      "eating too much food",
+      "drinking dirty water",
+      "maintaining personal hygiene",
+      "avoiding exercise"
     ],
-    correctAnswer: "Fractional distillation",
+    correctAnswer: "maintaining personal hygiene",
     marks: 1
   },
   {
     id: 28,
     type: 'multiple-choice',
     subject: 'science',
-    question: "In decantation, the heavier solid particles __________.",
+    question: "Which of the following is a useful microorganism?",
     options: [
-      "Float on top",
-      "Settle at the bottom",
-      "Disappear",
-      "Dissolve"
+      "Bacteria used in yoghurt production",
+      "Germs that cause cholera",
+      "Virus that causes measles",
+      "Fungi that spoil food"
     ],
-    correctAnswer: "Settle at the bottom",
+    correctAnswer: "Bacteria used in yoghurt production",
     marks: 1
   },
   {
     id: 29,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which of these is NOT a separation method?",
+    question: "Which of the following is a disease caused by bacteria?",
     options: [
-      "Evaporation",
-      "Combustion",
-      "Filtration",
-      "Distillation"
+      "Malaria",
+      "Cholera",
+      "Measles",
+      "Chicken pox"
     ],
-    correctAnswer: "Combustion",
+    correctAnswer: "Cholera",
     marks: 1
   },
   {
     id: 30,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The process of obtaining pure water from impure water by heating and cooling is called __________.",
+    question: "One major way microorganisms enter the human body is through",
     options: [
-      "Distillation",
-      "Filtration",
-      "Freezing",
-      "Crystallization"
+      "clean water",
+      "the skin only",
+      "contaminated food and water",
+      "fresh air"
     ],
-    correctAnswer: "Distillation",
-    marks: 1
-  },
-  {
-    id: 31,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "An element is a substance that __________.",
-    options: [
-      "Can be broken down by chemical means",
-      "Cannot be broken down into simpler substances",
-      "Is a mixture of atoms",
-      "Has more than one type of atom"
-    ],
-    correctAnswer: "Cannot be broken down into simpler substances",
-    marks: 1
-  },
-  {
-    id: 32,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which of the following is an element?",
-    options: [
-      "Water",
-      "Oxygen",
-      "Salt",
-      "Sugar"
-    ],
-    correctAnswer: "Oxygen",
-    marks: 1
-  },
-  {
-    id: 33,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The smallest particle of an element is called an __________.",
-    options: [
-      "Atom",
-      "Ion",
-      "Molecule",
-      "Compound"
-    ],
-    correctAnswer: "Atom",
-    marks: 1
-  },
-  {
-    id: 34,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which of the following is a compound?",
-    options: [
-      "Oxygen",
-      "Hydrogen",
-      "Carbon dioxide",
-      "Iron"
-    ],
-    correctAnswer: "Carbon dioxide",
-    marks: 1
-  },
-  {
-    id: 35,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "A compound is formed when __________.",
-    options: [
-      "Two or more elements chemically combine",
-      "Substances mix physically",
-      "Gases cool down",
-      "Solids melt"
-    ],
-    correctAnswer: "Two or more elements chemically combine",
-    marks: 1
-  },
-  {
-    id: 36,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Water (H₂O) is a compound because __________.",
-    options: [
-      "It can be separated easily",
-      "It has two elements chemically joined",
-      "It is a mixture",
-      "It contains air"
-    ],
-    correctAnswer: "It has two elements chemically joined",
-    marks: 1
-  },
-  {
-    id: 37,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Air is an example of a __________.",
-    options: [
-      "Compound",
-      "Mixture",
-      "Solution",
-      "Molecule"
-    ],
-    correctAnswer: "Mixture",
-    marks: 1
-  },
-  {
-    id: 38,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which of these pairs are mixtures?",
-    options: [
-      "Milk and air",
-      "Salt and water",
-      "Oxygen and hydrogen",
-      "Iron and sulfur (heated)"
-    ],
-    correctAnswer: "Milk and air",
-    marks: 1
-  },
-  {
-    id: 39,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The composition of a compound is __________.",
-    options: [
-      "Fixed",
-      "Variable",
-      "Random",
-      "Physical"
-    ],
-    correctAnswer: "Fixed",
-    marks: 1
-  },
-  {
-    id: 40,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The composition of a mixture is __________.",
-    options: [
-      "Fixed",
-      "Variable",
-      "Chemical",
-      "Permanent"
-    ],
-    correctAnswer: "Variable",
-    marks: 1
-  },
-  {
-    id: 41,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which of the following is a homogeneous mixture?",
-    options: [
-      "Salt solution",
-      "Sand and water",
-      "Oil and water",
-      "Iron and sulfur"
-    ],
-    correctAnswer: "Salt solution",
-    marks: 1
-  },
-  {
-    id: 42,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which of these is a heterogeneous mixture?",
-    options: [
-      "Sugar solution",
-      "Air",
-      "Oil and water",
-      "Lemonade"
-    ],
-    correctAnswer: "Oil and water",
-    marks: 1
-  },
-  {
-    id: 43,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which statement is true about mixtures?",
-    options: [
-      "They have fixed composition",
-      "They can be separated physically",
-      "They form new substances",
-      "They lose original properties"
-    ],
-    correctAnswer: "They can be separated physically",
-    marks: 1
-  },
-  {
-    id: 44,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which of these is an example of a compound?",
-    options: [
-      "NaCl (common salt)",
-      "Air",
-      "Sand",
-      "Milk"
-    ],
-    correctAnswer: "NaCl (common salt)",
-    marks: 1
-  },
-  {
-    id: 45,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "A molecule of water consists of __________.",
-    options: [
-      "Two hydrogen atoms and one oxygen atom",
-      "Two oxygen atoms and one hydrogen atom",
-      "One hydrogen atom only",
-      "One oxygen atom only"
-    ],
-    correctAnswer: "Two hydrogen atoms and one oxygen atom",
-    marks: 1
-  },
-  {
-    id: 46,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The smallest particle of an element that takes part in a chemical reaction is an __________.",
-    options: [
-      "Atom",
-      "Molecule",
-      "Ion",
-      "Compound"
-    ],
-    correctAnswer: "Atom",
-    marks: 1
-  },
-  {
-    id: 47,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The center of an atom is called the __________.",
-    options: [
-      "Proton",
-      "Electron",
-      "Nucleus",
-      "Neutron"
-    ],
-    correctAnswer: "Nucleus",
-    marks: 1
-  },
-  {
-    id: 48,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The negatively charged particle of an atom is the __________.",
-    options: [
-      "Proton",
-      "Neutron",
-      "Electron",
-      "Ion"
-    ],
-    correctAnswer: "Electron",
-    marks: 1
-  },
-  {
-    id: 49,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The positively charged particle in an atom is the __________.",
-    options: [
-      "Electron",
-      "Proton",
-      "Neutron",
-      "Nucleus"
-    ],
-    correctAnswer: "Proton",
-    marks: 1
-  },
-  {
-    id: 50,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Particles with no charge are called __________.",
-    options: [
-      "Electrons",
-      "Protons",
-      "Neutrons",
-      "Ions"
-    ],
-    correctAnswer: "Neutrons",
-    marks: 1
-  },
-  {
-    id: 51,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The number of protons in an atom is called its __________.",
-    options: [
-      "Atomic mass",
-      "Atomic number",
-      "Mass number",
-      "Charge number"
-    ],
-    correctAnswer: "Atomic number",
-    marks: 1
-  },
-  {
-    id: 52,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The total number of protons and neutrons is called the __________.",
-    options: [
-      "Atomic number",
-      "Mass number",
-      "Ion number",
-      "Charge number"
-    ],
-    correctAnswer: "Mass number",
-    marks: 1
-  },
-  {
-    id: 53,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "A molecule is formed when __________.",
-    options: [
-      "Two or more atoms combine chemically",
-      "Atoms separate",
-      "Electrons disappear",
-      "A gas cools"
-    ],
-    correctAnswer: "Two or more atoms combine chemically",
-    marks: 1
-  },
-  {
-    id: 54,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Molecules of elements contain __________.",
-    options: [
-      "Same kind of atoms",
-      "Different atoms",
-      "Protons and neutrons only",
-      "Energy"
-    ],
-    correctAnswer: "Same kind of atoms",
-    marks: 1
-  },
-  {
-    id: 55,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Molecules of compounds contain __________.",
-    options: [
-      "Same kind of atoms",
-      "Different kinds of atoms chemically combined",
-      "Only gases",
-      "Metals only"
-    ],
-    correctAnswer: "Different kinds of atoms chemically combined",
-    marks: 1
-  },
-  {
-    id: 56,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which of the following is a molecule of an element?",
-    options: [
-      "H₂",
-      "CO₂",
-      "H₂O",
-      "NaCl"
-    ],
-    correctAnswer: "H₂",
-    marks: 1
-  },
-  {
-    id: 57,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which of these represents a molecule of a compound?",
-    options: [
-      "O₂",
-      "Cl₂",
-      "H₂O",
-      "N₂"
-    ],
-    correctAnswer: "H₂O",
-    marks: 1
-  },
-  {
-    id: 58,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which scientist proposed that atoms cannot be divided further?",
-    options: [
-      "Dalton",
-      "Thomson",
-      "Rutherford",
-      "Bohr"
-    ],
-    correctAnswer: "Dalton",
-    marks: 1
-  },
-  {
-    id: 59,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Electrons revolve around the nucleus in __________.",
-    options: [
-      "Random motion",
-      "Fixed orbits or shells",
-      "Straight lines",
-      "Circles randomly"
-    ],
-    correctAnswer: "Fixed orbits or shells",
-    marks: 1
-  },
-  {
-    id: 60,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The modern atomic theory was developed from __________.",
-    options: [
-      "Dalton's atomic theory",
-      "Einstein's theory",
-      "Newton's theory",
-      "Pythagoras' theory"
-    ],
-    correctAnswer: "Dalton's atomic theory",
+    correctAnswer: "contaminated food and water",
     marks: 1
   }
 ];

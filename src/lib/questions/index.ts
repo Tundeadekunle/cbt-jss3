@@ -25,8 +25,8 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
        return pheQuestions;
       // case 'crs':
       // return crsQuestions;
-    // case 'science':
-    //   return scienceQuestions;
+    case 'science':
+      return scienceQuestions;
     case 'scs':
       return scsQuestions;
       case 'english':
@@ -57,8 +57,8 @@ export const getSubjectDisplayName = (subject: Subject): string => {
       // return 'Christian Religious Studies';
       case 'phe':
       return 'Physical and Health Education';
-    // case 'science':
-    //   return 'Basic Science';
+    case 'science':
+      return 'Basic Science';
     case 'scs':
       return 'Social and Citizenship Studies';
       case 'english':
@@ -71,5 +71,5 @@ export const getSubjectDisplayName = (subject: Subject): string => {
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['history', 'cca', 'scs', 'phe', 'business', 'english', 'vocational-studies'];
+  return ['history', 'cca', 'science', 'scs', 'phe', 'business', 'english', 'vocational-studies'];
 };
